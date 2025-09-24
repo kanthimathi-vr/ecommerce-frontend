@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api/', // Your Django API URL
+  baseURL: 'https://ecommerce-backend-5nof.onrender.com/api/', // Your Django API URL
   headers: {
     'Content-Type': 'application/json',
   },
